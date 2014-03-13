@@ -31,15 +31,15 @@ p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
   position: relative;
 }
 
-/*#header .logo {
+#header .logo {
   float: left;
-  margin-top: 17px;
+  margin-top: 15px;
   display: inline-block;
   width: 186px;
-  height: 27px;
+  height: 31px;
   background: url(/images/logo_forvalho.png) 0 0 no-repeat;
   text-indent: -999em;
-}*/
+}
 
 #header .nav {
   float: right;
