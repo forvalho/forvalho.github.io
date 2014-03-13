@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Francisco Orvalho - <%= @item[:title] %></title>
+    <link rel="stylesheet" href="/style.css">
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div id="main">
+        <%= yield %>
+      </div>
+
+      <div id="suggestions">
+        <a href="https://github.com/forvalho">GitHub Profile</a> &mdash;
+        <a href="/league_of_legends">League of Legends Gem</a>
+      </div>
+
+    </div>
+  </body>
+</html>
